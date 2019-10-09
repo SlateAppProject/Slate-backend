@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-textract:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-textract/1.11.588/32c8b3d41fcf73eab090415ed6ab537c7ffd65e7/aws-java-sdk-textract-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-textract/1.11.588/259c5051cff781dfae0c131c700b0c24a273a10d/aws-java-sdk-textract-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

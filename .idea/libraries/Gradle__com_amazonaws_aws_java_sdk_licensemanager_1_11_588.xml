@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-licensemanager:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-licensemanager/1.11.588/2b44800b53a35802cc94c0cda2b3192185ceeef8/aws-java-sdk-licensemanager-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-licensemanager/1.11.588/c35fb1f0681f3730016a7048ae111b4dc79fdabb/aws-java-sdk-licensemanager-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-costexplorer:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-costexplorer/1.11.588/732e5ed6a92e852f63628ec60cd9a70c3e87e083/aws-java-sdk-costexplorer-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-costexplorer/1.11.588/74651ad2801b1dab28fe9d9a6af05de8b2d3057f/aws-java-sdk-costexplorer-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-quicksight:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-quicksight/1.11.588/4491b1fb393928454d8e004526765f00cf904af1/aws-java-sdk-quicksight-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-quicksight/1.11.588/e031b240ac81b458af18b655c4a4c04545fcd64/aws-java-sdk-quicksight-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
