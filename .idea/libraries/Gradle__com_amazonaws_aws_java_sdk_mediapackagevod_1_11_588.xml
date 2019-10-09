@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-mediapackagevod:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediapackagevod/1.11.588/4dfbd53186aa4b95396f0d62cda224f1d0773165/aws-java-sdk-mediapackagevod-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediapackagevod/1.11.588/7becbc18d3a2ebbec01cc6322bfb427034835568/aws-java-sdk-mediapackagevod-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

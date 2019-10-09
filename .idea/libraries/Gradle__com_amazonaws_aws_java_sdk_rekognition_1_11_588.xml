@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-rekognition:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rekognition/1.11.588/3a9064c13045999a0e9597eec71adadeadd4f705/aws-java-sdk-rekognition-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-rekognition/1.11.588/c70319cb771f2b56f367b21f981425ec676644ee/aws-java-sdk-rekognition-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

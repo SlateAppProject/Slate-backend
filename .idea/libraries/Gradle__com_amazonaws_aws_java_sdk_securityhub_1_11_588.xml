@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-securityhub:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-securityhub/1.11.588/13bf9839d10ba6b225efdc7dabf71ba58bebc440/aws-java-sdk-securityhub-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-securityhub/1.11.588/56383978f705b034776f7ac733c48b8acb23f0f7/aws-java-sdk-securityhub-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

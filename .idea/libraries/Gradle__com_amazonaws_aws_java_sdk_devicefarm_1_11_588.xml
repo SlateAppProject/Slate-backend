@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-devicefarm:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-devicefarm/1.11.588/ef0d99a5e703dc174ac53524e7368efb42aff66e/aws-java-sdk-devicefarm-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-devicefarm/1.11.588/cbfc2db1a3dbaf84f0eabdf1ea643d4d15f45f80/aws-java-sdk-devicefarm-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

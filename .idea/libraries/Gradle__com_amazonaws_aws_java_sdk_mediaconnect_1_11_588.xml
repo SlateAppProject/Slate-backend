@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.amazonaws:aws-java-sdk-mediaconnect:1.11.588">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediaconnect/1.11.588/e22d1e3db624cf885ecebffc39034959adeedb91/aws-java-sdk-mediaconnect-1.11.588.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-mediaconnect/1.11.588/630a79b48b8d84edf9a254bbc771588696687bda/aws-java-sdk-mediaconnect-1.11.588-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
