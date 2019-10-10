@@ -26,11 +26,14 @@
   * sendmessage
           {
               "action" : "sendmessage",
+             
                         .
                         .
                         .
 
+
               "roomId" : "unique Room ID associated with the User"
+              
               
               }
               
@@ -38,14 +41,20 @@
    
      ### Slate-translate API Gateway  
   * translateText
+  
           {
               "message" : "Hello",
+              
               "source" : "en",
+              
               "destination" : "es"
+              
      
               }
               
+              
    * Response: Message Object (JSON) with message being translated. 
+   
 
       
 
