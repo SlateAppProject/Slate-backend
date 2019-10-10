@@ -1,7 +1,5 @@
-## Application
-  ##### Slate
   
-## Components
+# Back-End Components
    ###### Websocket API Gatewaty       
   * connect: opens up a web socket connection for the front-end client and store the connection in dynamo db. 
   * disconnect: closes the specified connection and releases it from the dynamo db. 
