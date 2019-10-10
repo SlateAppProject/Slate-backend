@@ -1,4 +1,12 @@
-  
+# SLATE
+
+## Team Meh
+
+#### Members
+ * Brandon Hurrington | Manish B KC | Marisha Hoza | Peter Lee
+ 
+### Product Description
+A translation chat app geared towards groups of foreign language enthusiasts.   
 # Back-End Components
    ###### Websocket API Gatewaty       
   * connect: opens up a web socket connection for the front-end client and store the connection in dynamo db. 
