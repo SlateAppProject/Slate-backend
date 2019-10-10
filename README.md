@@ -1,22 +1,15 @@
-## Overview
-- The lab uses API gateways which is an entrypoint of trigger to lambda functions.
-- Lambda functions: create a new task, get tasks for specific user, save a new task, update a task state,
-  change assignee to the task, delete a task.
-- Extended lab 38 & 39. 
-- Can subscribe to taskMaster Events
-- Message published to email or text that have signed up to the topics
-
-## How To Test
- **Use postman and provide similar parameters when testing.** 
- 
-  ###### Subscibe to the taskMaster using phone number        
-  * API GATEWAY:https://kb76bxe39j.execute-api.us-west-2.amazonaws.com/dev/tasks/subscribe/{phoneNumber}
-  * Method: PUT /tasks/subscribe/{phoneNumber}
-  * PARAMS: "+1XXXXXXXXXX" phone number as the param          
-  * Response: JSON object with Subscription ARN
-  #### NOTE: After signed up, test creating new task from post man to get notification on new task
+## Application
+  ##### Slate
   
-  ###### Subscibe to the taskMaster as an admin        
+## Components
+   ###### Websocket API Gatewaty       
+  * connect: opens up a web socket connection for the front-end client and store the connection in dynamo db. 
+  * disconnect: closes the specified connection and releases it from the dynamo db. 
+  * updateconnection: expression route to append identifier information to the existing connections.         
+  * sendmessage: Broadcasts message to specified connections
+  #### NOTE: The messaging models used during updateconnection and sendmessage is strictly JSON format
+  
+  ###### Slate-translate API        
   * API GATEWAY:https://rptuilwxzh.execute-api.us-west-2.amazonaws.com/dev/tasks/add/{email}
   * Method: PUT /tasks/add/{email}
   * PARAMS: "email address" as the param  
