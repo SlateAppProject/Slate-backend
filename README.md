@@ -21,7 +21,7 @@
       ** get-user: user id is passed into the query parameters and queries database to return the JSON object representation                      of the user in dynamo db. 
       * Response: JSON object
   
-###### JSON SAMPLES 
+# JSON SAMPLES 
   ### Websocket API Gateway  
   * sendmessage
   
@@ -42,7 +42,7 @@
               
    * Response: Message Broadcast to the specified roomId.
    
-     ### Slate-translate API Gateway  
+  ### Slate-translate API Gateway  
   * translateText
   
           {
