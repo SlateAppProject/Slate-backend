@@ -24,7 +24,10 @@
 ###### JSON SAMPLES 
   ### Websocket API Gateway  
   * sendmessage
-          {
+  
+        
+        {
+
               "action" : "sendmessage",
              
                         .
