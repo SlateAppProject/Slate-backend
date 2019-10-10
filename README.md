@@ -13,59 +13,39 @@
   * translate: Receives JSON object that specifies message, source and target languages to hit the AWS translate service.
   
  ###### Slate-users API Gateway
-  * API GATEWAY: https://04kiiaovkl.execute-api.us-west-2.amazonaws.com/dev/tasks
-  * Method: GET           
-  * Response: JSON object
+  * Method1: POST
+      ** createuser: Receives JSON object from the front end and saves the user into dynamo db.
+      ** Response: JSON object
+      
+  * Method2: GET   
+      ** get-user: user id is passed into the query parameters and queries database to return the JSON object representation                      of the user in dynamo db. 
+      * Response: JSON object
   
-###### Create a new task
-  * API GATEWAY: https://lltrgze6rl.execute-api.us-west-2.amazonaws.com/dev/task
-  * Method: POST
-  * PARAMS: JSON OBJECT
-  
-          
+###### JSON SAMPLES 
+  ### Websocket API Gateway  
+  * sendmessage
           {
-          
-              "title" : "New title",
-              
-              "description" : "new description",
-              
-              "status" : "Available",
-              
-              "assignee" : "New assignee"
+              "action" : "sendmessage",
+                        .
+                        .
+                        .
+
+              "roomId" : "unique Room ID associated with the User"
               
               }
               
-   * Response: JSON object
+   * Response: Message Broadcast to the specified roomId.
    
- ###### Get tasks for a specific user        
-  * API GATEWAY:https://g6tbnjg2s3.execute-api.us-west-2.amazonaws.com/dev/task/{user}
-  * Method: GET /task/{user}
-  * PARAMS: "assignee" value  of the object as an URL param           
-  * Response: JSON object
-   
-###### Update a task        
-  * API GATEWAY:https://phv3cxw8ud.execute-api.us-west-2.amazonaws.com/dev/tasks/{id}/state
-  * Method: PUT /tasks/{id}/state
-  * PARAMS: id of the object as an URL param           
-  * Response: JSON object
-  
-###### Assign a new user to the task        
-  * API GATEWAY:https://7a6kr231di.execute-api.us-west-2.amazonaws.com/dev/tasks/{id}/assign/{assignee}
-  * Method: PUT /tasks/{id}/assign/{assignee}
-  * PARAMS: id of the object and assignee for the task as URL params         
-  * Response: JSON object
-  
-###### Delete a task        
-  * API GATEWAY: https://lpce1u7wt1.execute-api.us-west-2.amazonaws.com/dev/deletetask/{id}
-  * Method: DELETE
-  * PARAMS: id of task to be deleted as the URL param          
-  * Response: Status of delte as a String
-   
- ### FrontEnd Link 
-      
+     ### Slate-translate API Gateway  
+  * translateText
+          {
+              "message" : "Hello",
+              "source" : "en",
+              "destination" : "es"
+     
+              }
               
-## Credits and contributions
-  * ### Manish
-  * ### Roman
-  * ### Jack
-  * ### Fabian
+   * Response: Message Object (JSON) with message being translated. 
+
+      
+
