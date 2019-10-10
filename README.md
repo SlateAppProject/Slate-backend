@@ -9,15 +9,10 @@
   * sendmessage: Broadcasts message to specified connections
   #### NOTE: The messaging models used during updateconnection and sendmessage is strictly JSON format
   
-  ###### Slate-translate API        
-  * API GATEWAY:https://rptuilwxzh.execute-api.us-west-2.amazonaws.com/dev/tasks/add/{email}
-  * Method: PUT /tasks/add/{email}
-  * PARAMS: "email address" as the param  
-  * Open your email and verify subscription.
-  * Response: JSON object with Subscription ARN
-  #### NOTE: After signed up, test changing the state of the task to get email notification.
+  ###### Slate-translate API Gateway         
+  * translate: Receives JSON object that specifies message, source and target languages to hit the AWS translate service.
   
- ###### Get All Tasks
+ ###### Slate-users API Gateway
   * API GATEWAY: https://04kiiaovkl.execute-api.us-west-2.amazonaws.com/dev/tasks
   * Method: GET           
   * Response: JSON object
