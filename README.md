@@ -19,11 +19,16 @@ A translation chat app geared towards groups of foreign language enthusiasts.
   * translate: Receives JSON object that specifies message, source and target languages to hit the AWS translate service.
   
  ###### Slate-users API Gateway
+ 
   * Method1: POST
+  
       ** createuser: Receives JSON object from the front end and saves the user into dynamo db.
+      
       ** Response: JSON object
       
+      
   * Method2: GET   
+  
       ** get-user: user id is passed into the query parameters and queries database to return the JSON object representation                      of the user in dynamo db. 
       * Response: JSON object
   
