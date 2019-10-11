@@ -22,14 +22,14 @@ A translation chat app geared towards groups of foreign language enthusiasts.
  
   * Method1: POST
   
-      ** createuser: Receives JSON object from the front end and saves the user into dynamo db.
+      * createuser: Receives JSON object from the front end and saves the user into dynamo db.
       
-      ** Response: JSON object
+      * Response: JSON object
       
       
   * Method2: GET   
   
-      ** get-user: user id is passed into the query parameters and queries database to return the JSON object representation                      of the user in dynamo db. 
+      * get-user: user id is passed into the query parameters and queries database to return the JSON object representation                      of the user in dynamo db. 
       * Response: JSON object
   
 # JSON SAMPLES 
